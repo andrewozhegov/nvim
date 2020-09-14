@@ -23,6 +23,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
 
+    " Colorscheme
+    Plug 'morhetz/gruvbox'
+
   if exists('g:vscode')
     " Easy motion for VSCode
     Plug 'asvetliakov/vim-easymotion'
