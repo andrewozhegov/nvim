@@ -108,6 +108,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
+    " Tagbar for ctags
+    Plug 'preservim/tagbar'
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow brackets
