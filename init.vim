@@ -66,7 +66,7 @@ if !empty(glob("~/.config/nvim/paths.vim"))
 endif
 
 " Tilling spaces highlighting
-highlight ExtraWhitespace ctermbg=red guibg=red
+highlight ExtraWhitespace guibg=Tomato
 match ExtraWhitespace /\s\+$/
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
