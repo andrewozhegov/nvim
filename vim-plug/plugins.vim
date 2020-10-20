@@ -8,6 +8,13 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " Design plugins
+
+    " Navigation & features
+
+    " Development
+    Plug 'arrufat/vala.vim'
+
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Change dates fast
